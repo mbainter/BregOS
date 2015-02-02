@@ -47,7 +47,7 @@ end
 if not json then
         print("Downloading JSON api...\n(Credits to ElvishJerricco!)")
         --download("http://pastebin.com/raw.php?i=4nRg9CHU","json")
-        download("https://raw.github.com/"..args[1].."/"..args[2].."/"..args[3].."/git/json.lua","json")
+        download("https://raw.github.com/"..args[1].."/"..args[2].."/"..args[3].."/json","json")
         os.loadAPI("json")
 end
  
